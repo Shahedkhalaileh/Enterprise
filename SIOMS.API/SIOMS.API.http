@@ -1,0 +1,6 @@
+@SIOMS.API_HostAddress = http://localhost:5216
+
+GET {{SIOMS.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
