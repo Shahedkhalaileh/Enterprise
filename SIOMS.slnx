@@ -1,4 +1,8 @@
 <Solution>
+  <Folder Name="/src/">
+    <Project Path="src/SIOMS.Persistence/SIOMS.Persistence.csproj" />
+    <Project Path="src/SIOMS.Shared/SIOMS.Shared.csproj" />
+  </Folder>
   <Project Path="SIOMS.API/SIOMS.API.csproj" />
   <Project Path="SIOMS.Application/SIOMS.Application.csproj" />
   <Project Path="SIOMS.Domain/SIOMS.Domain.csproj" />

@@ -1,9 +1,8 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <ProjectReference Include="..\SIOMS.Domain\SIOMS.Domain.csproj" />
-    <ProjectReference Include="..\SIOMS.Application\SIOMS.Application.csproj" />
-    <ProjectReference Include="..\src\SIOMS.Shared\SIOMS.Shared.csproj" />
+    <ProjectReference Include="..\..\SIOMS.Domain\SIOMS.Domain.csproj" />
+    <ProjectReference Include="..\..\SIOMS.Application\SIOMS.Application.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
