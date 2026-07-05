@@ -9,6 +9,18 @@ namespace SIOMS.Domain.Entities
         public int CategoryId { get; set; }
         public Category Category { get; set; } = null!;
 
+        public static Product Create(string name, string? description, decimal price, int stockQuantity, int categoryId)
+        {
+            return new Product
+            {
+                Name = name,
+                Description = description,
+                Price = price,
+                StockQuantity = stockQuantity,
+                CategoryId = categoryId
+            };
+        }
+
         public void IncreaseStock(int quantity)
         {
             StockQuantity += quantity;
